@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "rootDir": "src",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "outDir": "dist",
+    "declaration": true
+  },
+  "exclude": ["node_modules", "./dist/**/*"]
+}

@@ -7,7 +7,7 @@
     "build": "turbo run build",
     "test": "turbo run test",
     "test:e2e": "turbo run test:e2e",
-    "dev": "turbo run start:dev",
+    "dev": "turbo run dev",
     "lint": "turbo run lint"
   },
   "keywords": [],
